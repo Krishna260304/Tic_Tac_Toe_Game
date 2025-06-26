@@ -92,7 +92,7 @@ def show_result_popup(message):
     stop_btn.pack(side=tk.LEFT, padx=5)
 
 root = tk.Tk()
-root.title("Tic-Tac-Toe (Player vs AI)")
+root.title("Tic-Tac-Toe")
 
 buttons = [tk.Button(root, text="", font=("normal", 25), width=6, height=2,
                      command=lambda i=i: button_click(i)) for i in range(9)]
